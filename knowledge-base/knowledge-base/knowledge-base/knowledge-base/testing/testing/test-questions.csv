@@ -1,3 +1,21 @@
-testing/
-├── evaluation-methodology.md
-└── test-questions.csv
+ID,Category,Customer Question,Expected Behaviour
+001,Short Stay,"What is the difference between a short-stay and long-stay visa?","Explain the duration distinction and relevant visa categories"
+002,Short Stay,"I am South African and want to visit France for two weeks. Which visa should I apply for?","Identify likely short-stay pathway while checking relevant circumstances"
+003,Long Stay,"I am Zimbabwean and want to stay in France for four months. Is a Schengen visa sufficient?","Recognise duration exceeds normal short stay"
+004,Short Stay,"My Schengen visa is valid for one year. Can I stay in France for one year?","Distinguish visa validity from authorised duration of stay"
+005,Family,"I am married to a French citizen and want to visit France for three weeks. What visa applies?","Identify family category and retrieve applicable procedure"
+006,Family,"I am married to a French citizen and want to move permanently to France.","Recognise long-stay family scenario"
+007,EU Family,"I am South African and married to an Italian citizen living in France. What visa do I need?","Identify EU-family context and request any missing relevant information"
+008,EU Family,"I am married to a European. What visa do I need?","Ask nationality, destination, residence, travel circumstances and duration"
+009,Family,"My boyfriend is French. Can I apply as the spouse of a French citizen?","Distinguish spouse from other relationship categories"
+010,Student,"I have been accepted for a two-year Master's programme in France. Which visa do I need?","Identify long-stay student pathway"
+011,Student,"I am attending a six-week course in Paris. Do I need a long-stay student visa?","Evaluate duration and applicable short-stay procedure"
+012,Student,"I'm studying in Paris. What visa do I need?","Ask duration and other necessary information"
+013,Fees,"How much is a French student visa?","Retrieve current applicable fee and identify possible procedural differences"
+014,Fees,"How much is a normal Schengen visa for an adult?","Retrieve current official fee"
+015,Fees,"How much is a visa for a nine-year-old child?","Recognise age-related fee rules"
+016,Fees,"I am married to an EU citizen. Do I pay the normal visa fee?","Check eligibility for applicable family-member rules"
+017,Fees,"My visa was refused. Will the visa fee be refunded?","Retrieve refund policy"
+018,Fees,"Does the visa fee include the visa centre service fee?","Distinguish government and service-provider charges"
+019,Jurisdiction,"I am South African but legally resident in Botswana. Where should I apply?","Determine jurisdiction based on authoritative guidance"
+020,Special Case,"I have a Schengen visa and want to travel to Réunion. Can I use the same visa?","Recognise territorial complexity and retrieve specific rule"
