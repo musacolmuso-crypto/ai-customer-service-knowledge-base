@@ -1,93 +1,118 @@
-# ai-customer-service-knowledge-base
-AI-powered knowledge management prototype designed to reduce customer-service errors and improve information retrieval. NotebookLM
-ai-customer-service-knowledge-base
-│
 # AI-Powered Customer Service Knowledge Base
 
-### Reducing customer-service errors through AI-assisted knowledge management
+## Reducing Customer Service Errors Through AI-Assisted Knowledge Management
 
-## Overview
+### Project Overview
 
-Customer service teams working in complex operational environments need to navigate large volumes of procedures, policies and frequently changing information.
+Customer service teams working in complex regulatory environments need to navigate large volumes of procedures, policies and frequently changing information.
 
-This project explores how a source-grounded AI knowledge assistant can help agents retrieve reliable information faster, improve answer consistency and reduce operational errors.
+This project explores how a source-grounded AI knowledge assistant can help customer service agents retrieve reliable information faster, improve answer consistency and reduce operational errors.
 
-## The Challenge
+The prototype uses French visa enquiries in Sub-Saharan Africa as a test environment because these enquiries require agents to distinguish between multiple visa categories, applicant profiles, travel purposes and regulatory requirements.
 
-Customer service agents frequently need to search across multiple sources of information before answering a customer.
+> This is an independent portfolio project. It uses public information and simulated customer enquiries. No confidential customer, employer or applicant data is included.
 
-This can lead to:
+---
 
-- Longer information-retrieval times
+## The Business Problem
+
+Customer service agents may need to search multiple sources before answering a customer.
+
+This can result in:
+
+- Longer information retrieval times
 - Inconsistent answers between agents
 - Increased risk of human error
 - Unnecessary escalations
-- Dependence on individual knowledge and experience
+- Dependence on individual agent experience
+- Difficulty keeping knowledge current
 
-## The Objective
+---
 
-Design an AI-assisted knowledge environment that allows customer service agents to retrieve information quickly while maintaining human validation and source traceability.
+## Project Objective
 
-## My Role
+Design and evaluate an AI-assisted knowledge system that helps customer service agents:
 
-I designed the project from a Customer Experience and Operations perspective, including:
+1. Identify the customer's enquiry correctly
+2. Retrieve relevant information from approved sources
+3. Provide source-grounded answers
+4. Recognise when information is missing
+5. Ask appropriate clarification questions
+6. Escalate complex cases when necessary
 
-- Business problem identification
-- Knowledge architecture
-- AI use-case design
-- Testing methodology
-- Quality-control framework
-- Success metrics
+---
 
-## Proposed Solution
+## AI Knowledge Architecture
 
-The prototype uses NotebookLM and a curated collection of validated operational documents to create a source-grounded knowledge assistant.
-
-### Customer Service Workflow
-
-Validated Documentation  
+Validated Public Sources  
 ↓  
-AI Knowledge Base  
+Structured Knowledge Base  
 ↓  
-Agent Question  
+NotebookLM  
 ↓  
-Source-Grounded Response  
+Customer Question  
+↓  
+AI-Generated Answer  
+↓  
+Source Verification  
 ↓  
 Agent Validation  
 ↓  
 Customer Response
 
-## Testing Approach
+---
 
-The prototype will be tested using representative customer-service questions.
+## Use Cases
 
-Each response will be evaluated against:
+The prototype focuses on:
 
-- Answer accuracy
-- Correct source identification
-- Information retrieval time
-- Hallucination or error rate
-- Need for escalation
+- Short-stay visas
+- Long-stay visas
+- Student visas
+- Family members of French/EU citizens
+- Visa fees
+- Special and ambiguous cases
+
+---
+
+## Evaluation Framework
+
+The AI assistant is tested against realistic customer-service enquiries.
+
+Responses are evaluated for:
+
+- Accuracy
+- Completeness
+- Source grounding
+- Correct visa classification
+- Appropriate clarification
+- Appropriate escalation
+- Hallucination avoidance
+
+---
 
 ## Success Metrics
 
 | KPI | Desired Impact |
 |---|---|
-| Information retrieval time | ↓ Reduce |
-| Agent errors | ↓ Reduce |
-| Answer consistency | ↑ Increase |
-| Escalation rate | ↓ Reduce |
-| First Contact Resolution | ↑ Increase |
-| Agent confidence | ↑ Increase |
+| Answer accuracy | Increase |
+| Information retrieval time | Reduce |
+| Agent errors | Reduce |
+| Answer consistency | Increase |
+| Appropriate clarification | Increase |
+| Unnecessary escalations | Reduce |
+| First Contact Resolution | Increase |
 
-## Tools & Skills
+---
 
-**Generative AI · NotebookLM · Knowledge Management · Customer Experience · Customer Operations · QA Testing · Process Design**
+## Technology & Skills
+
+NotebookLM · Generative AI · Knowledge Management · Customer Experience · Customer Operations · QA Testing · AI Evaluation · Process Design
+
+---
 
 ## Project Status
 
-Prototype development and testing.
-
----
+🟡 Prototype development and testing in progress.
 
 *This case study uses anonymised or simulated operational information. No confidential customer or company data is included.*
