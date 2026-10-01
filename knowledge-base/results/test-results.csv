@@ -1,0 +1,6 @@
+Test_ID,Category,Accuracy_Score,Result,Source_Grounded,Clarification_Appropriate,Relevance_Score,Main_Observation
+001,Short Stay vs Long Stay,1,Partially Correct,Yes,Not Required,1,"Correct core distinction but overgeneralised employment restrictions and long-stay visa types"
+002,Short Stay,1,Partially Correct,Yes,Yes,1,"Correct visa classification and useful clarification but introduced unnecessary generic operational information"
+003,Long Stay,2,Correct,Yes,Yes,2,"Correctly identified long-stay pathway and requested relevant information before determining the specific category"
+004,Visa Validity,2,Correct,Yes,Yes,2,"Correctly distinguished visa validity from authorised duration of stay"
+005,Family of French National,2,Correct,Yes,Yes,1,"Correct classification but response expanded into unnecessary residence-law information"
